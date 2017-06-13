@@ -45,7 +45,10 @@ background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, F
     opacity: 0.75;
   }
 }
-
+ .navbar-brand{
+   font-fammil: 'Open Sans', sans-serif;
+   font-weight: 800;
+ }
 //Homepage styles
 .home-callout{
    color:white;
