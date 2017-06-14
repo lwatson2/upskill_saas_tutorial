@@ -45,10 +45,25 @@ background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, F
     opacity: 0.75;
   }
 }
- .navbar-brand{
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color:white;
+}
+
+.navbar-brand{
    font-fammil: 'Open Sans', sans-serif;
    font-weight: 800;
  }
+ 
+ .navbar-default .navbar-toggle {
+   border:2px solid white;
+    &:hover, &:focus {
+      background-color:#3A6073;
+    }
+ }
+ 
+ 
+ 
 //Homepage styles
 .home-callout{
    color:white;
